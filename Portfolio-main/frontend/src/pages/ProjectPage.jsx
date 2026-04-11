@@ -53,8 +53,8 @@ const ProjectPage = () => {
           title="Credit Card Fraud Detection – Machine Learning"
           description="Developing a machine learning model to identify fraudulent transactions. The project involves analyzing large datasets to detect patterns and integrating the trained model into a responsive web dashboard via an API."
           github="https://github.com/bhumikasahai"
-          status="Ongoing"
-          note="Currently integrating the ML datasets with the web-based API."
+          live="https://fraud-shield-project.vercel.app/index.html"
+          status="Live"
           papers={[
             <img key="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className="w-10 h-10" alt="Python" />,
             <img key="html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" className="w-10 h-10" alt="HTML" />,
