@@ -1,6 +1,5 @@
 import React from 'react';
 import { SiGithub, SiLinkedin, SiInstagram, SiX } from 'react-icons/si';
-import VisitorCountInline from './visit';
 
 const Footer = () => {
   return (
@@ -48,7 +47,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/bhumikasahai/"
+            href="https://www.instagram.com/bhumika_sahai/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: '#E1306C' }}
@@ -73,13 +72,11 @@ const Footer = () => {
 
       {/* Bottom: Copyright */}
       <div
-        className="text-center py-2 text-xs"
+        className="text-center py-4 text-xs"
         style={{ color: 'var(--link-text)' }}
       >
         © {new Date().getFullYear()} Bhumika Sahai · Software Developer
       </div>
-
-      <VisitorCountInline />
     </footer>
   );
 };

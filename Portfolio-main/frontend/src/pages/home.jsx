@@ -179,7 +179,7 @@ const Home = () => {
     </a>{" "}
     and{" "}
     <a
-      href="https://www.instagram.com/bhumikasahai/"
+      href="https://www.instagram.com/bhumika_sahai/"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:underline font-medium"
