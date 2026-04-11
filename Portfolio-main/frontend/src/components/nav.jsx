@@ -108,7 +108,7 @@ const App = () => {
 
         {/* UPDATED RESUME LINK */}
         <a
-          href="/resume_bhumika_sahai_1.pdf"
+          href="/resume_bhumika_sahai.pdf"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View Resume"

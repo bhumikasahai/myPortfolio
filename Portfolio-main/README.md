@@ -5,7 +5,7 @@ A responsive and modern portfolio built using React, Vite, and Tailwind CSS. It 
 ---
 
 ## Live Website
-https://portfolio-e7gt.onrender.com/
+https://my-portfolio-iota-nine-74.vercel.app/#/
 
 ---
 
@@ -36,4 +36,4 @@ This project is open source under the MIT License.
 ---
 
 ## Author
- © <a href="https://portfolio-e7gt.onrender.com/" target="_blank"><strong>Bhumika Sahai</strong></a>
+ © <a href="https://my-portfolio-iota-nine-74.vercel.app/#/" target="_blank"><strong>Bhumika Sahai</strong></a>
