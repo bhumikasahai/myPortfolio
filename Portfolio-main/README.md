@@ -36,4 +36,4 @@ This project is open source under the MIT License.
 ---
 
 ## Author
- © <a href="https://portfolio-e7gt.onrender.com/" target="_blank"><strong>Adarsh Kumar</strong></a>
+ © <a href="https://portfolio-e7gt.onrender.com/" target="_blank"><strong>Bhumika Sahai</strong></a>
