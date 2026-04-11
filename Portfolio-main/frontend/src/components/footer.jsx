@@ -1,0 +1,87 @@
+import React from 'react';
+import { SiGithub, SiLinkedin, SiInstagram, SiX } from 'react-icons/si';
+import VisitorCountInline from './visit';
+
+const Footer = () => {
+  return (
+    <footer
+      className="mt-12"
+      style={{
+        backgroundColor: 'var(--bg-color)',
+        color: 'var(--text-color)',
+      }}
+    >
+      <div className="max-w-6xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between">
+
+        {/* Left: Name & tagline */}
+        <div className="text-center sm:text-left mb-4 sm:mb-0">
+          <h4 className="text-sm font-semibold" style={{ color: 'var(--text-color)' }}>
+            Bhumika Sahai
+          </h4>
+          <p className="text-xs" style={{ color: 'var(--link-text)' }}>
+            Software Developer
+          </p>
+        </div>
+
+        {/* Right: Social Links */}
+        <div className="flex space-x-4">
+          <a
+            href="https://github.com/bhumikasahai"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'var(--link-text)' }}
+            className="hover:opacity-70 transition-opacity duration-200"
+            aria-label="GitHub"
+          >
+            <SiGithub size={18} />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/bhumikasahai/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: '#0A66C2' }}
+            className="hover:opacity-70 transition-opacity duration-200"
+            aria-label="LinkedIn"
+          >
+            <SiLinkedin size={18} />
+          </a>
+
+          <a
+            href="https://www.instagram.com/bhumikasahai/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: '#E1306C' }}
+            className="hover:opacity-70 transition-opacity duration-200"
+            aria-label="Instagram"
+          >
+            <SiInstagram size={18} />
+          </a>
+
+          <a
+            href="https://x.com/bhumika_sa61562"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'var(--text-color)' }}
+            className="hover:opacity-70 transition-opacity duration-200"
+            aria-label="X"
+          >
+            <SiX size={18} />
+          </a>
+        </div>
+      </div>
+
+      {/* Bottom: Copyright */}
+      <div
+        className="text-center py-2 text-xs"
+        style={{ color: 'var(--link-text)' }}
+      >
+        © {new Date().getFullYear()} Bhumika Sahai · Software Developer
+      </div>
+
+      <VisitorCountInline />
+    </footer>
+  );
+};
+
+export default Footer;
