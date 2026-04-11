@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
-import profile from '../assets/profile.jpeg';
-import Testimonials from '../components/testimonials.jsx';
-import RotatingText from '../components/text.jsx';
+import profile from './assets/profile.jpeg';
+import Testimonials from './components/testimonials.jsx';
+import RotatingText from './components/text.jsx';
 
 const Home = () => {
   const navigate = useNavigate();
